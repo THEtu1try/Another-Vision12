@@ -152,6 +152,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4087644855075416, guid: 6f062a688a5ecd146a4f034451bf8a2c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087644855075416, guid: 6f062a688a5ecd146a4f034451bf8a2c, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.04
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f062a688a5ecd146a4f034451bf8a2c, type: 2}
   m_IsPrefabAsset: 0
@@ -290,9 +298,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 436556886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aab927ab7b1560645af7fe9d42036c56, type: 3}
+  m_Script: {fileID: 11500000, guid: bf7e07ed9748d1642b4c22e8c94a5ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.01
+  direction: {x: 0, y: 0}
 --- !u!1 &1055075940
 GameObject:
   m_ObjectHideFlags: 0
